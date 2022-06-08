@@ -1,6 +1,10 @@
 <template>
   <div>
-    <h1>custom layout</h1>
-    <slot></slot>
+    <Navbar />
+    <slot/>
+    <Footer />
   </div>
 </template>
+
+<style lang="scss">
+</style>

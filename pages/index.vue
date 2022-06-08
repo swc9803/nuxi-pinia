@@ -12,6 +12,7 @@
 <script setup>
 import { storeToRefs } from 'pinia'
 import { useCounterStore } from '@/store/useCounter'
+
 const main = useCounterStore()
 const { count, name } = storeToRefs(main)
 const { reset, addOne, log } = main
